@@ -1,0 +1,25 @@
+{
+  "name": "krishimitra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hitesh-09/KrishiMitra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hitesh-09/KrishiMitra/issues"
+  },
+  "homepage": "https://github.com/Hitesh-09/KrishiMitra#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}
