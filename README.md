@@ -1,51 +1,57 @@
-# KrishiMitra 🌱  
+# KrishiMitra 🌱
 **Smart Agriculture Assistance Platform**
 
-## Overview
-KrishiMitra is a backend-driven platform designed to assist farmers with efficient data management and scalable agricultural services. The system provides structured APIs to manage farmer data, enabling future integration with analytics, advisory systems, and IoT-driven insights.
+---
 
-The project is built with a focus on **modularity, scalability, and production-readiness**, making it suitable for real-world agricultural tech solutions.
+## Overview
+KrishiMitra is a backend-first platform designed to manage farmer data and enable scalable agricultural services.
+
+It focuses on:
+- Modular architecture
+- Clean separation of concerns
+- Production-ready backend design
 
 ---
 
 ## Problem Statement
 Agricultural systems often lack:
-- Centralized farmer data management  
-- Scalable backend infrastructure  
-- Extensible APIs for future integrations  
+- Centralized farmer data
+- Scalable backend infrastructure
+- Extensible APIs
 
-KrishiMitra addresses these gaps by providing a **clean, extensible backend foundation**.
+KrishiMitra provides a clean, extensible backend to solve this.
 
 ---
 
 ## Features
-- Farmer Management (CRUD operations)
-- RESTful API architecture
+- Farmer Management (CRUD APIs)
+- RESTful architecture
 - Modular folder structure
-- Scalable backend design
-- Clean and maintainable codebase
+- Scalable backend foundation
+- Maintainable codebase
 
 ---
 
 ## Tech Stack
-- **Backend:** Node.js, Express.js  
-- **Database:** (Pluggable — currently using mock/JSON or MySQL-ready structure)  
-- **Version Control:** Git + GitHub  
-- **API Testing:** Postman  
+- **Backend:** Node.js, Express.js
+- **Database:** JSON / MySQL-ready
+- **API Testing:** Postman
+- **Version Control:** Git, GitHub
 
 ---
 
 ## Project Structure
+```bash
 krishimitra/
 │
-├── controllers/ # Request handling logic
-├── routes/ # API route definitions
-├── models/ # Data models / schema
-├── services/ # Business logic layer
-├── config/ # Configuration files
-├── server.js # Entry point
+├── controllers/
+├── routes/
+├── models/
+├── services/
+├── config/
+├── server.js
 └── package.json
-
+```
 
 ---
 
@@ -53,13 +59,13 @@ krishimitra/
 
 ### Farmer APIs
 
-| Method | Endpoint        | Description              |
-|--------|----------------|--------------------------|
-| GET    | /farmers       | Get all farmers          |
-| GET    | /farmers/:id   | Get farmer by ID         |
-| POST   | /farmers       | Create new farmer        |
-| PUT    | /farmers/:id   | Update farmer            |
-| DELETE | /farmers/:id   | Delete farmer            |
+| Method | Endpoint      | Description        |
+|--------|--------------|--------------------|
+| GET    | /farmers     | Get all farmers    |
+| GET    | /farmers/:id | Get farmer by ID   |
+| POST   | /farmers     | Create new farmer  |
+| PUT    | /farmers/:id | Update farmer      |
+| DELETE | /farmers/:id | Delete farmer      |
 
 ---
 
@@ -74,39 +80,65 @@ krishimitra/
   }
 }
 ```
-Setup Instructions
-1. Clone Repository
+
+---
+
+## Setup Instructions
+
+### 1. Clone Repository
+```bash
 git clone https://github.com/your-username/krishimitra.git
 cd krishimitra
-2. Install Dependencies
+```
+
+### 2. Install Dependencies
+```bash
 npm install
-3. Run Server
+```
+
+### 3. Run Server
+```bash
 npm start
+```
 
-Server will run on:
+Server runs at:
 
+```
 http://localhost:3000
-Design Principles
-Separation of Concerns (routes, controllers, services)
-Scalable Architecture
-Code Readability over Cleverness
-API-first Development
-Future Enhancements
-Authentication & Authorization (JWT)
-Database integration (MySQL/PostgreSQL)
-Crop recommendation system
-Weather & market price APIs
-Farmer analytics dashboard
-Mobile app integration
-Contribution Guidelines
-Follow clean code practices
-Use meaningful commit messages
-Maintain modular structure
-Create feature branches for new work
-License
+```
 
+---
+
+## Design Principles
+- Separation of Concerns
+- API-first architecture
+- Scalable structure
+- Readable code
+
+---
+
+## Future Enhancements
+- JWT Authentication & Authorization
+- MySQL/PostgreSQL integration
+- Crop recommendation system
+- Weather & market APIs
+- Farmer analytics dashboard
+- Mobile app integration
+
+---
+
+## Contribution Guidelines
+- Follow clean code practices
+- Use meaningful commit messages
+- Maintain modular structure
+- Use feature branches
+
+---
+
+## License
 This project is licensed under the MIT License.
 
-Author
+---
 
-Developed as part of a scalable agri-tech backend system.
+## Author
+KrishiMitra Backend System
